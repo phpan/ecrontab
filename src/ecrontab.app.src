@@ -1,0 +1,16 @@
+{application, ecrontab,
+    [
+        {description,"crontab for erlang"},
+        {vsn,"0.6.0"},
+        {registered,[]},
+        {applications, [
+            kernel,
+            stdlib,
+            gproc
+        ]},
+        {mod, { ecrontab_app,[]}},
+        {modules,[]},
+        {maintainers,[""]},
+        {licenses,["MIT"]},
+        {links, []}
+    ]}.
